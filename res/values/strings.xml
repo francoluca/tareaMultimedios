@@ -5,5 +5,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="menu_settings">Settings</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="facebook_app_id">328877910636903</string>
 
 </resources>

@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="C:/Android/android-sdks/extras/android/support/v7/appcompat/libs/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="src" path="/FacebookSDK"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Franco/Documents/facebook-android-sdk-3.18.1/facebook/bin/facebooksdk.jar" sourcepath="/FacebookSDK/src"/>
+	<classpathentry kind="lib" path="C:/Android/android-sdks/platforms/android-10/android.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://developer.android.com/reference/"/>
+		</attributes>
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="com/android/internal/**"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="src" path="/FindUS"/>
+	<classpathentry exported="true" kind="lib" path="C:/Android/android-sdks/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar"/>
+	<classpathentry kind="src" path="/AdUnitsSample"/>
+	<classpathentry kind="src" path="/appcompat_v7"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

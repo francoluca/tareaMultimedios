@@ -66,11 +66,11 @@ public class ListViewAdapter extends BaseAdapter {
 		image = (ImageView) itemView.findViewById(R.id.image);
  
 		// Capture position and set results to the TextViews
-		title.setText(resultp.get(MainActivity.TITLE));
-		points.setText(resultp.get(MainActivity.POINTS));
+		title.setText(resultp.get(MainListView.TITLE));
+		points.setText(resultp.get(MainListView.POINTS));
 		// Capture position and set results to the ImageView
 		// Passes flag images URL into ImageLoader.class
-		imageLoader.DisplayImage(resultp.get(MainActivity.IMAGE), image);
+		imageLoader.DisplayImage(resultp.get(MainListView.IMAGE), image);
 		// Capture ListView item click
 		itemView.setOnClickListener(new OnClickListener() {
  
@@ -80,7 +80,7 @@ public class ListViewAdapter extends BaseAdapter {
 				resultp = data.get(position);
 				Intent intent = new Intent(context, SingleItemView.class);
 				// Pass all data image
-				intent.putExtra("image", resultp.get(MainActivity.IMAGE));
+				intent.putExtra("image", resultp.get(MainListView.IMAGE));
 				// Start SingleItemView Class
 				context.startActivity(intent);
  
