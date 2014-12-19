@@ -87,7 +87,8 @@ public class ListViewAdapter extends BaseAdapter {
 		points.setText(resultp.get(MainListView.POINTS));
 		// Capture position and set results to the ImageView
 		// Passes flag images URL into ImageLoader.class
-		imageLoader.DisplayImage(resultp.get(MainListView.IMAGE), image);
+		final String img = resultp.get(MainListView.IMAGE);
+		imageLoader.DisplayImage(img, image);
 		
 		like.setOnClickListener(new OnClickListener() {
 			@Override
@@ -112,7 +113,7 @@ public class ListViewAdapter extends BaseAdapter {
 						
 				Intent intent = new Intent(android.content.Intent.ACTION_SEND);
 				intent.setType("text/plain");
-				intent.putExtra(android.content.Intent.EXTRA_TEXT, MainListView.LINK);
+				intent.putExtra(android.content.Intent.EXTRA_TEXT, img);
 				context.startActivity(Intent.createChooser(intent, "Compartir link"));
 			}
 			});
