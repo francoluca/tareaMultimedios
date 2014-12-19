@@ -18,6 +18,7 @@
 	<classpathentry kind="src" path="/FindUS"/>
 	<classpathentry exported="true" kind="lib" path="C:/Android/android-sdks/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar"/>
 	<classpathentry kind="src" path="/AdUnitsSample"/>
-	<classpathentry kind="src" path="/appcompat_v7"/>
+	<classpathentry exported="true" kind="src" path="/appcompat_v7"/>
+	<classpathentry kind="src" path="/ConexionDB"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

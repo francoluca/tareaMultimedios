@@ -28,7 +28,25 @@
 	        android:layout_height="wrap_content"
 	        android:layout_marginTop="10dip"
 	        android:textSize="@dimen/points" />
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="horizontal">	    
+	    <Button
+	        android:id="@+id/like"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/like"
+	        ></Button>
     
+	    <Button
+	        android:id="@+id/share"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/share"
+	        ></Button>
+	    </LinearLayout>
 
 					 		
 	</LinearLayout>	

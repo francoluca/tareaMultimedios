@@ -7,8 +7,12 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.facebook.UiLifecycleHelper;
+import com.facebook.widget.FacebookDialog;
+
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -94,5 +98,8 @@ public class MainListView extends Activity {
 				mProgressDialog.dismiss();
 			}
 		}
+		
+
+		
 
 }

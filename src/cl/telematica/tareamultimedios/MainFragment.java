@@ -29,8 +29,8 @@ public class MainFragment extends Fragment{
 	    LoginButton authButton =  ( LoginButton ) view . findViewById ( R . id . authButton ); 
 	    authButton . setFragment ( this ); 
 	    authButton . setReadPermissions ( Arrays . asList ( "public_profile" )); 
-
-	    return view ; 
+	    
+	   return view ; 
 	}
 	
 	private void onSessionStateChange(Session session, SessionState state, Exception exception) {
